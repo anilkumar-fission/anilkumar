@@ -32,6 +32,8 @@ public class MainActivity extends Activity {
             private void captureImage() {
                 Intent intent=new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 startActivityForResult(intent,CAMERA_CAPTURE_IMAGE_RESEQUEST_CODE);
+
+                //Testing
             }
         });
 
